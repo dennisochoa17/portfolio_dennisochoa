@@ -72,10 +72,23 @@ section p {
 
 /* Change this style */
 #biggerText {
-
+font-size: 30px
 }
 
 /* Change this style */
 .indent {
+margin-left: 35%;
+}
 
+#lewis1{
+margin-left: 25%;
+font-size: 1.75em
+}
+#lewis2{
+margin-left: 25%;
+font-size: 2.5em
+}
+#lewis3{
+margin-left: 35%;
+font-size: 1.5em
 }
