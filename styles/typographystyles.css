@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 /* Do not change this style */
@@ -91,4 +93,32 @@ font-size: 2.5em
 #lewis3{
 margin-left: 35%;
 font-size: 1.5em
+}
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  font-weight: 200;
+}
+
+#weight2 {
+  font-weight: 300;
+
+}
+#weight3 {
+  font-weight: 400;
+
+}
+
+#weight4 {
+  font-weight: 500;
+
+}
+
+#weight5 {
+  font-weight: 900;
+
 }
