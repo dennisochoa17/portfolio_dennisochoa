@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Patua+One');
 
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
@@ -130,19 +132,21 @@ font-size: 1.5em
   background-position: center center;
   height: 500px;
   width: 800px;
-  margin: 0 auto;}
+  margin: 0 auto;
+    text-shadow: 2px 2px black;
+}
 
 #top1 {
 margin-left: 15%;
 font-size: 50px;
 color: gold;
-font-family: Roboto;
+font-family: 'Patua One';
 }
 
 #bottom1{
   color: purple;
-  font-family: serif;
-  font-size: 60px;
+  font-family: 'Bungee';
+  font-size: 50px;
 margin-left: 43%
 }
 
