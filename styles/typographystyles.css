@@ -122,3 +122,19 @@ font-size: 1.5em
   font-weight: 900;
 
 }
+
+
+#grandCanyon {
+  background-image: url("../images/grand_canyon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;}
+
+#top1 {
+margin-left: 25%;
+font-size: 60px;
+color: gold;
+font-family: Roboto;
+}
