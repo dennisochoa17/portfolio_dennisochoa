@@ -133,8 +133,21 @@ font-size: 1.5em
   margin: 0 auto;}
 
 #top1 {
-margin-left: 25%;
-font-size: 60px;
+margin-left: 15%;
+font-size: 50px;
 color: gold;
 font-family: Roboto;
+}
+
+#bottom1{
+  color: purple;
+  font-family: serif;
+  font-size: 60px;
+margin-left: 43%
+}
+
+#bottom2{
+  font-size: 30px;
+  font-family: Arial;
+  color: gold;
 }
