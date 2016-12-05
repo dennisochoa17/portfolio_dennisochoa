@@ -1,7 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+.rectangle {
+
+
+
+
+  background-color: black;
+  border: solid 1px black;
+  height: 200px;
+  width: 850px;
+  margin: 0 auto;
+}
+
 
 #quote1{
-  font-size: 2.1em;
   font-family: "Bungee";
+  font-size: 2.3em;
+  color: #2CD602;
+  text-shadow: 2px 2px blue;
+  line-height: 175px;
+}
 
+
+.square{
+  background-color: #CECECE;
+  border: solid 1px black;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+#quote2{
+  font-family: "Amatic SC", cursive;
+  font-size: 3.5em;
+  color: #1C5D99;
+  text-align: center;
+  line-height: 110px;
 }
