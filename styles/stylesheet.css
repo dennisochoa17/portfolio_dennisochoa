@@ -1,29 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Orbitron|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Acme|Orbitron|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Acme|Nova+Script|Orbitron|PT+Sans+Narrow');
+
 body {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: normal;
-  font-family: helvetica;
+  font-family: "Acme";
   color: #2BB0D8;
   text-align: left;
-  background-color: #114B5F
+  background-color: #42657A;
 
 
 }
 h1 {
   font-size: 3.0em;
-  color: #00E883 ;
+  color: #00F2F2;
   text-align: center;
+  font-family: "Orbitron";
 }
 
 h2 {
 font-size: 30px;
-color: #00E883  ;
-font-family: Times New Roman;
+color: red;
+font-family: "Nova Script" ;
 }
 
 a{
-  color: red;
-  font-family: Arial;
+  color: #7CFF85;
+  font-family: "PT Sans Narrow";
+  font-size: 20px;
 }
+
+li{
+  font-size: 20px;
+}
+
 /*
 Color scheme for this website:
 #114B5F
