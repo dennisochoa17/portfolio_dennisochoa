@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>normal document flow</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+/*This line is telling any browser that doesn't supprt the newer HTML5 elements how thos should be displayed. In this case they should be treated as block-level elements.*/
+aside, article, section, header, footer, nav {
+	display: block;
+/* CSS Resets*/
+}
+div, h1, h2, h3, p, img {
+	margin: 0;
+	padding: 0;
+/* CSS Resets*/
+}
+html {
+	margin: 0;
+	padding: 0;
+	background: rgb(100, 98, 102);
+}/*Padding to keep content from bottom of page */
+
+body {
+	padding: 0 0 25px;
+	font: 100% Georgia, Times, serif;
+	background: rgb(255, 255, 255);
+  width: 900px;
+/*This margin: 0 auto; centers the content on the page.*/
+  margin: 0 auto;
+}
+header {
+/*Adding padding on top, bottom, and sides.*/
+  padding: 20px 25px;
+	background: rgb(76,67,65);
+}
+article {
+  padding: 0 25px;
+  margin-top: 25px;
+}
+.photos {
+  margin: 0 auto;
+  width: 822px;
+  padding: 10px;
+  background: rgb(100,98,102);
+}
+img {
+  margin: 10px;
+  border: 2px solid white;
+}
+.normal {
+	width: 842px;
+	margin: 25px auto;
+	border: 1px solid black;
+	background: rgb(237, 228,214);
+	font-size: 90%;
+	padding: 0;
+}
+.normal h2 {
+	border: none;
+	background: rgb(219,126,64);
+	color: white;
+	padding: 5px 10px;
+}
+.normal p, .normal h3 {
+	padding: 0 10px;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+	color: rgb(255,255,255);
+}
+h2 {
+	font: 1.2em Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid black;
+	margin-bottom: .4em;
+}
+h3 {
+	font: 1.1em Arial, Helvetica, sans-serif;
+	margin-bottom: .4em;
+	font-weight: bold;
+}
+p {
+	margin-bottom: 1em;
+	line-height: 1.6;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to my gallery</h1>
+</header>
+<article class="gallery">
+<h2>Current gallery: Barca House</h2>
+<p>
+<div class="photos">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_(crest).svg/1010px-FC_Barcelona_(crest).svg.png" width="250" height="189" alt="Philadelphia"><img src="http://assets.internationalchampionscup.com/uploads/photo/file/530/large_barca_1-1458657834.png" width="250" height="189" alt="Philadelphia"><img src="http://i0.wp.com/fcbar.ca/wp-content/uploads/2015/12/las-cinco-copas-juntas-1450796337010.jpg?fit=646%2C403" width="250" height="189" alt="Philadelphia"><img src="https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/14218/SITours/football-club-barcelona-private-tour-in-barcelona-212320.jpg" width="250" height="189" alt="Philadelphia"><img src="https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/14218/SITours/football-club-barcelona-private-tour-in-barcelona-212320.jpg" width="250" height="189" alt="Philadelphia"><img src="_images/philly_6.jpg" width="250" height="189" alt="Philadelphia"></div>
+</article>
+<article class="normal">
+</article>
+</body>
+</html>
