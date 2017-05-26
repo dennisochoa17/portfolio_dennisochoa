@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Gentium+Basic');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  background-color: #0557AA;
+}
+
+#logo{
+  display: block;
+  margin: auto;
+}
+
+#title{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Concert One";
+}
+#pano{
+  width: 80%;
+}
+
+#state{
+  text-align: center;
+  background-color: grey;
+  float: right;
+  font-size: 25px;
+  width: 20%;
+  height: 457px;
+  font-family:"Gentium Basic";
+}
+
+#salesian{
+  text-align: center;
+  font-size: 40px;
+  font-family: "Concert One";
+
+
+}
+
+#church1{
+font-size: 35px;
+text-align: center;
+font-family: "Concert One";
+}
+
+#church{
+  width: 800px;
+}
