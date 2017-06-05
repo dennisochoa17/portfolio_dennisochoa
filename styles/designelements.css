@@ -40,6 +40,7 @@ body{
   text-align: center;
   font-size: 40px;
   font-family: "Concert One";
+  border-bottom: 5px solid black;
 
 
 }
@@ -52,4 +53,106 @@ font-family: "Concert One";
 
 #church{
   width: 800px;
+}
+
+#state2{
+  text-align: center;
+  float: right;
+  font-size: 25px;
+  width: 35%;
+  font-family:"Gentium Basic";
+}
+
+#school{
+  font-size: 35px;
+  text-align: center;
+  font-family: "Concert One";
+}
+
+#school1{
+  width: 800px;
+}
+
+#state3{
+  text-align: center;
+  float: right;
+  font-size: 25px;
+  width: 35%;
+  font-family:"Gentium Basic";
+}
+
+#play{
+  font-size: 35px;
+  text-align: center;
+  font-family: "Concert One";
+}
+
+#play1{
+    width: 800px;
+}
+
+#state4{
+  text-align: center;
+  float: right;
+  font-size: 25px;
+  width: 35%;
+  font-family:"Gentium Basic";
+}
+
+#home{
+  font-size: 35px;
+  text-align: center;
+  font-family: "Concert One";
+  margin-left: 1%;
+}
+
+#home1{
+  width: 800px;
+}
+
+#state5{
+  text-align: center;
+  float: right;
+  font-size: 25px;
+  width: 35%;
+  font-family:"Gentium Basic";
+}
+
+#linkdiv{
+  width: 100%;
+  height: 100px;
+  background: #AEA983;
+  position: fixed;
+  bottom: 0;
+
+}
+
+#link{
+  font-family: 'roboto slab', serif;
+  text-decoration: none;
+  display: block;
+  width: 18%;
+  height: 80px;
+  margin-left: 60%;
+  margin-top: 10px;
+  background-image: url("/images/twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#link p{
+  margin-left: 50%;
+  font-size: 1.75em;
+  color: black;
+}
+
+#link:hover{
+  background-image: url("/images/twitter2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#twitter{
+  width: 60%;
+  float: right;
 }
